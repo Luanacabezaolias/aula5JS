@@ -47,3 +47,17 @@ if(valor > 10){
 else{
     document.write("O valor é menor")
 }
+
+let valor1 = 30
+if(valor1 >10 && valor <20){
+    document.write("Este valor é valido")
+}else{
+    document.write("Este valor é invalido")
+}
+
+let valor2 = 25
+if(valor2 < 10 || valor2 > 20){
+    document.write("Este valor é valido")
+}else{
+    document.write("Este valor é invalido")
+}
